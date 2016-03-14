@@ -1,6 +1,10 @@
-A simple exercise using these data would be to plot, for example, Period vs. Period Derivative, which is a very common plot made by pulsar astronomers (typically, period is on the horizontal axis, and period derivative is on the vertical axis, and period derivative is plotted in logarithm).
+A simple exercise using these data would be to plot, for example,
+Period vs. Period Derivative, which is a very common plot made by pulsar astronomers
+(typically, period is on the horizontal axis, and period derivative is on the vertical axis,
+ and period derivative is plotted in logarithm).
 
-I'd like to see, if possible, a dynamic and/or interctive web data visualization example.  This could be done using javascript tools such as D3.js, or bokeh, for example.
+I'd like to see, if possible, a dynamic and/or interctive web data visualization example.
+This could be done using javascript tools such as D3.js, or bokeh, for example.
 
 Examples of dynamic plot visualization could be one or more of the following:
 - mouse hovering revealing data for each data point;
@@ -8,7 +12,10 @@ Examples of dynamic plot visualization could be one or more of the following:
 - additiona and/or removal of data by user, with automated plot scale adjustment;
 - many other possibilities.  Be creative!
 
-We have supplied a small data test in two forms: comma-separated values (pulsar_data_test.csv) and JSON (pulsar_data_test.json). The two files contain exactly the same data, so it will be up to you to decide which you prefer to work with for now.  The columns in the text file we supply correspond to the following parameters (which are shown at the top of the file, and could be used to label the data):
+We have supplied a small data test in two forms: comma-separated values (pulsar_data_test.csv) and JSON (pulsar_data_test.json).
+The two files contain exactly the same data, so it will be up to you to decide which you prefer to work with for now.
+The columns in the text file we supply correspond to the following parameters (which are shown at the top of the file,
+ and could be used to label the data):
 
 (1) Pulsar:  this is the pulsar's name
 (2) TOAs: the number of "times-of-arrival" we have for the pulsar (these are pulsar timing data points)
