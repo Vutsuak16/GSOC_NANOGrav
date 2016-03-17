@@ -95,9 +95,11 @@ hover = HoverTool(
 )
 TOOLS = 'box_zoom,box_select,crosshair,resize,reset,wheel_zoom, previewsave'    #sizing tools
 
-p = figure(title="Period derivative vs Period", x_axis_label='Period (s)', y_axis_label='log(P\')', tools=[hover,TOOLS])
+p = figure(title="Period derivative vs Period", x_axis_label='Period (s)', y_axis_label='dot(P)', tools=[hover,TOOLS])
 
 p.circle(P_Y, log_Pdot_Y, fill_color="red", legend="in BS", line_color="red", source=source1, size=5)
 p.circle(P_N, log_Pdot_N, fill_color="black", legend="not in BS", line_color="black", source=source2, size=5)
 
 show(p)
+
+#add widgets like buttons etc
